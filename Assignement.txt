@@ -1,0 +1,25 @@
+IOWA HOUSE PRICE CASE STUDY
+
+The Iowa house price case study is concerned with developing a model to predict the prices of 
+houses in Iowa. Data and the analysis in Chapter 3 of Hull’s book are in the files accompanying 
+the book on www-2.rotman.utoronto.ca/~hull
+
+You are required to use the Python software to try and improve on the analysis in Chapter 3 by 
+including additional features from the Original_Data.xlxs. Proceed as in the text and choose the 
+first 1800 observations as the training set, the next 600 as the validation set, and the remainder 
+as the test set.  
+
+You should consider four additional features:
+•	One additional feature should be Lot Frontage where you should consider alternative approaches for dealing with missing observations. Try at least three approaches and briefly explain why you chose them. (KNN, Drop, Mean/Median)
+•	Another additional feature should be the categorical feature, Lot Shape. 
+•	For the other two features, elaborate briefly on why you chose them.
+
+Choose a model for prediction and report on its performance. By how much do the additional 
+features improve prediction.
+
+Finally, repeat your analysis by randomly splitting data into training set, validation set, and test 
+set – maintain the same splitting proportion 1800/600/rest respectively. You only need to 
+repeat this analysis once.
+
+Your submission should include your Python code (*.html and *.ipynb) and a short two page 
+report outlining what you did. 
